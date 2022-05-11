@@ -20,7 +20,7 @@ export class MenuComponent implements OnInit {
           {
             label: 'Text and Dates',
             icon: 'pi pi-align-left',
-            routerLink: '/'
+            routerLink: '/',
           },
           {
             label: 'Numbers',
@@ -37,10 +37,7 @@ export class MenuComponent implements OnInit {
       {
         label: 'Custom Pipes',
         icon: 'pi pi-cog',
-        items: [
-          { label: 'Delete', icon: 'pi pi-fw pi-trash' },
-          { label: 'Refresh', icon: 'pi pi-fw pi-refresh' },
-        ],
+        routerLink: 'sort',
       },
     ];
   }
